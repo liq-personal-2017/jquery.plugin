@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="../resource/jquery/jquery.1.9.1.js"></script>
+    <script>
+        $(document).ready(function ()
+        {
+            console.log('this is the first call');
+        })
+    </script>
+    <script src="../resource/jquery.include/jquery.include.js"></script>
+    <script>
+        $.include({
+            cache: true,
+            ismin: false,
+            rootpath: '',
+            file: ['resource', 'h1.js']
+        })
+        $(function ()
+        {
+            console.log('ready');
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
