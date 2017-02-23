@@ -5,4 +5,5 @@
 项目本身意图作为一个纯粹的资源网站，在一个客户处有多个项目的时候，所有的资源都使用同一份，这样升级维护都会比较简单。
 
 ## 2017-02-23 jquery.include
-	[说明](./resource/jquery.include/readme.md)
+
+[说明]( https://github.com/xiaoqiang151hao/jquery.plugin/blob/master/resource/jquery.include/readme.md)
