@@ -163,6 +163,7 @@
                 $.include.scriptReady();
                 $.include.scriptReady = null;
             }
+            $.include.done = true;
         }
 
     }

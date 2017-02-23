@@ -435,7 +435,7 @@ jQuery.extend({
 		    // If there are functions bound, to execute
 		    readyList.resolveWith( document, [ jQuery ] );
 		}
-		if (jQuery.include)
+		if (jQuery.include && !jQuery.include.done)
 		{
 		    jQuery.include.scriptReady = scriptReady;
 
